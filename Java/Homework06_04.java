@@ -1,7 +1,7 @@
 /*
  * File name : Homework06_04.java
  * Author : Kim Yeong Ho
- * Date : July 17, 2023
+ * Date : July 18, 2023
  * Major feature : 
  * - 다음은 2차원 상의 한 점을 표현하는 Point 클래스이다.
  * - Point를 상속받아 양수의 공간에서만 점을 나타내는 PositivePoint 클래스를 작성하라.
@@ -20,8 +20,8 @@ class Point {
 
 class PositivePoint extends Point {
 	public PositivePoint() { super(0, 0); }
-	public PositivePoint(int x, int y) { super(x, y); if (x <= 0 || y <= 0) super.move(0, 0); }
-	public void move(int x, int y) { super.move(x, y); if (x <= 0 || y <= 0) super.move(getX(), getY()); }
+	public PositivePoint(int x, int y) { super(0, 0); if (x > 0 && y > 0) super.move(x, y); }
+	public void move(int x, int y) { super.move(getX(), getY()); if (x > 0 && y > 0) super.move(x, y); }
 	public String toString() { return ("("+ getX() + ", " + getY() + ")의 점"); }
 }
 
