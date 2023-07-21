@@ -1,4 +1,4 @@
-# Preparation-42GYEONGSAN-Lapiscine
+# 42GYEONGSAN-Lapiscine-Preparation
 ## 42경산 라피신 대비 사전 SW교육과정
 > 일정 | 2023/07/10 ~ 2023/08/10 (24일)
 - 자바 프로그래밍 언어
