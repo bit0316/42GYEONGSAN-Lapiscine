@@ -28,14 +28,14 @@
   - 제네릭과 컬렉션
 
 - 수행 과제
-  - CurrencyConverter
-  - PointInRectangle | SeasonIdentifier
-  - StarPattern | MultipleOfThree | StarPatternWithSpaces
-  - Clap369Game | StructuredArray | RandomArray
-  - GradeCalculator | CircleManager
-  - KoreanEnglishDictionary | ColorPoint | ColorPointWithConstructor | Positive2DPoint
-  - CurrencyConverter | DistanceConverter | StringStackApp | GraphicEditorApp
-  - RockPaperScissorsGame | RainfallAverageTracker | CityLocationSearch | GraphicEditorApp
+  - Currency Converter
+  - Point In Rectangle | Season Identifier
+  - Star Pattern | Multiple Of Three | Star Pattern With Spaces
+  - Clap 369 Game | Structured Array | Random Array
+  - Grade Calculator | Circle Manager
+  - Korean English Dictionary | Color Point | Color Point With Constructor | Positive 2D Point
+  - Currency Converter | Distance Converter | String Stack App | Graphic Editor App
+  - Rock Paper Scissors Game | Rainfall Average Tracker | City Location Search | Graphic Editor App
 
 　
 
