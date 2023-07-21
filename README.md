@@ -33,7 +33,7 @@
   - StarPattern | MultipleOfThree | StarPatternWithSpaces
   - Clap369Game | StructuredArray | RandomArray
   - GradeCalculator | CircleManager
-  - KoreanEnglishDictionary | PointWithColor | Positive2DPoint
+  - KoreanEnglishDictionary | ColorPoint | ColorPointWithConstructor | Positive2DPoint
   - CurrencyConverter | DistanceConverter | StringStackApp | GraphicEditorApp
   - RockPaperScissorsGame | RainfallAverageTracker | CityLocationSearch | GraphicEditorApp
 
