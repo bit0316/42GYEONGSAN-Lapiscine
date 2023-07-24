@@ -19,22 +19,26 @@
 int main(void) {
 	int bowlSizeA = 2, countA;
 	int bowlSizeB = 3, countB;
-	int bowSizelC = 4, countC;
+	int bowlSizeC = 4, countC;
 	int bowlSizeD = 6, countD;
-	int count, index;
+	int bowlsCount = 4;
+	int count;
 
 	printf("콩의 개수를 입력하시오 (1 ~ 15) : ");
 	scanf("%d", &count);
 
-	countA = (count / 4 < 2) ? count / 4 : 2;
+	countA = (count / bowlsCount < bowlSizeA) ? count / bowlsCount : bowlSizeA;
 	count -= countA;
+	bowlsCount--;
 
-	countB = (count / 3 < 3) ? count / 3 : 3;
+	countB = (count / bowlsCount < bowlSizeB) ? count / bowlsCount : bowlSizeB;
 	count -= countB;
-	
-	countC = (count / 2 < 4) ? count / 2 : 4;
+	bowlsCount--;
+
+	countC = (count / bowlsCount < bowlSizeC) ? count / bowlsCount : bowlSizeC;
 	count -= countC;
-	
+	bowlsCount--;
+
 	countD = count;
 
 	printf("그릇-1 콩의 개수(2) : %d\n", countA);
