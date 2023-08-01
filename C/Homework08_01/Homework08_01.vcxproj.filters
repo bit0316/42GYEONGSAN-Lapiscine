@@ -20,8 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Matrix.txt">
-      <Filter>소스 파일</Filter>
-    </Text>
+    <Text Include="Matrix.txt" />
   </ItemGroup>
 </Project>
