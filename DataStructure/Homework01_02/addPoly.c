@@ -6,6 +6,7 @@ polynomial addPoly(polynomial A, polynomial B) {
 	int diff_degree;
 
 	P.degree = MAX(A.degree, B.degree);
+	printf("%d", MAX(A.coef, B.coef));
 	(A.degree > B.degree) ? (bigP = A, smallP = B) : (bigP = B, smallP = A);
 	diff_degree = bigP.degree - smallP.degree;
 
@@ -16,10 +17,8 @@ polynomial addPoly(polynomial A, polynomial B) {
 }
 
 void printPoly(polynomial P) {
-	int exp = P.degree;
-
 	for (int i = 0; i <= P.degree; i++) {
-		printf("%.fx^%d", P.coef[i], exp--);
+		printf("%.fx^%d", P.coef[i], P.degree - i);
 		if (i < P.degree)
 			printf(" + ");
 	}
