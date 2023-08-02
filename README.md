@@ -52,10 +52,31 @@
 ## [C]
 > 일정 | 2023/07/21 ~ 2023/08/01 (8일)
 - 교육 내용
-  - 　
+  - C프로그래밍 강의개요
+  - 프로그래밍의 개념
+  - 프로그램 작성 과정
+  - C 프로그램 구성 요소
+  - 변수와 자료형
+  - 수식과 연산자
+  - 조건문
+  - 반복문
+  - 함수
+  - 함수와 변수
+  - 배열
+  - 포인터
+  - 문자열
+  - 구조체
+  - 스트림과 파일 입출력
 
 - 수행 과제
-  - 　
+  - BMI Calculator | Sum And Average | Up Down Game
+  - Bag Purchase | Multiply By 4 | Distribute Beans
+  - Leap Year | Pyramid | Lotto Game
+  - Time Difference | Four Color Theorem | Alphabet Printer
+  - Combination Calculator | Score Calculator | Score Histogram
+  - Student Scores Analysis | Student Score Subject Analysis | Bubble Sort With Pointers | Simple Stack Implementation
+  - String Comparison | Palindrome Checker | String Character Analysis
+  - Matrix File Handling | Student Score Analysis | Text File Viewer
 
 　
 
