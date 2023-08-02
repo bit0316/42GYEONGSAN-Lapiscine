@@ -6,7 +6,6 @@ polynomial addPoly(polynomial A, polynomial B) {
 	int diff_degree;
 
 	P.degree = MAX(A.degree, B.degree);
-	printf("%d", MAX(A.coef, B.coef));
 	(A.degree > B.degree) ? (bigP = A, smallP = B) : (bigP = B, smallP = A);
 	diff_degree = bigP.degree - smallP.degree;
 
