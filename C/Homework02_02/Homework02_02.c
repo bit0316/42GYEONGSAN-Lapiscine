@@ -1,4 +1,4 @@
-/*
+﻿/*
 * File name : Homework02_02.c
 * Author : Kim Yeong Ho
 * Date : July 24, 2023
