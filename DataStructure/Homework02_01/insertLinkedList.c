@@ -38,7 +38,7 @@ void insertFirstNode(linkedList_h* L, char* x) {
 	listNode* newNode;
 
 	newNode = (listNode*)malloc(sizeof(listNode));
-	strcpy(newNode->data, x);
+	strncpy(newNode->data, x, DATA_SIZE);
 	newNode->link = L->head;
 	
 	L->head = newNode;
@@ -48,7 +48,7 @@ void insertMiddleNode(linkedList_h* L, listNode* pre, char* x) {
 	listNode* newNode;
 
 	newNode = (listNode*)malloc(sizeof(listNode));
-	strcpy(newNode->data, x);
+	strncpy(newNode->data, x, DATA_SIZE);
 
 	if (L->head == NULL) {
 		L->head = newNode;
@@ -65,7 +65,7 @@ void insertLastNode(linkedList_h* L, char* x) {
 	listNode* tr;
 
 	newNode = (listNode*)malloc(sizeof(listNode));
-	strcpy(newNode->data, x);
+	strncpy(newNode->data, x, DATA_SIZE);
 	newNode->link = NULL;
 	
 	tr = L->head;

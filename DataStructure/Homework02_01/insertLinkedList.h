@@ -3,8 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define DATA_SIZE	4
+
 typedef struct ListNode {
-	char data[4];
+	char data[DATA_SIZE];
 	struct ListNode* link;
 } listNode;
 
