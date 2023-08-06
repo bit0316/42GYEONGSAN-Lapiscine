@@ -83,7 +83,10 @@
 ## [Data Structure]
 > 일정 | 2023/08/02 ~ 2023/08/7 (4일)
 - 교육 내용
-  - 　
+  - Linear List | Polynomial
+  - Singly Linked List
+  - Singly Linked List | Circular Linked List | Double Linked List
+  - 
 
 　
 
