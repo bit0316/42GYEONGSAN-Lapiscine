@@ -81,19 +81,17 @@
 　
 
 ## [Data Structure]
-> 일정 | 2023/08/02 ~ 2023/08/7 (4일)
+> 일정 | 2023/08/02 ~ 2023/08/7 (7일)
 - 교육 내용
+  - 순차 자료구조와 선형 리스트
+  - 연결 자료구조와 연결 리스트
+  - 스택
+  - 트리
+  - 그래프
+  - 검색과 정렬
+
+- 수행 과제
   - Linear List | Polynomial
   - Singly Linked List
   - Singly Linked List | Circular Linked List | Double Linked List
   - 
-
-　
-
-## [CPP]
-> 일정 | 2023/08/02 ~ 2023/08/10 (7일)
-- 교육 내용
-  - 　
-
-- 수행 과제
-  - 　
