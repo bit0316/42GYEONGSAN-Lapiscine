@@ -94,4 +94,5 @@
   - Linear List | Polynomial
   - Singly Linked List
   - Singly Linked List | Circular Linked List | Double Linked List
+  - Sequential Stack Operation | Linked Stack Operation
   - 
