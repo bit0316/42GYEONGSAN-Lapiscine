@@ -95,4 +95,6 @@
   - Singly Linked List
   - Singly Linked List | Circular Linked List | Double Linked List
   - Sequential Stack Operation | Linked Stack Operation
-  - 
+  - Binary Search Tree
+  - Shortest Path
+  - Selection sort | insertion sort | quick sort
